@@ -10,3 +10,6 @@ streamlit
 openai
 langchain
 joblib
+shap
+python-dotenv
+pytest
