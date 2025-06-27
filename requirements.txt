@@ -1,0 +1,12 @@
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+tensorflow
+adversarial-robustness-toolbox
+mlflow
+streamlit
+openai
+langchain
+joblib
