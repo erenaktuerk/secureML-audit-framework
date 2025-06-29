@@ -1,0 +1,9 @@
+{
+    "model": "RandomForestClassifier",
+    "risk_classification": "High Risk (EU AI Act \u2013 Annex III)",
+    "bias_detection": {
+        "0.6702800625998365": 0.625,
+        "-1.4919136877222166": 0.556
+    },
+    "timestamp": "2025-06-29T16:50:01.422436"
+}

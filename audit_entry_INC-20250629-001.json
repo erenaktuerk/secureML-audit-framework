@@ -1,0 +1,28 @@
+{
+    "incident_id": "INC-20250629-001",
+    "model_name": "RandomForestClassifier",
+    "model_version": "1.0",
+    "incident_severity": "Critical",
+    "incident_description": "Unusual prediction distribution detected in production model, potential data poisoning attack.",
+    "containment_actions": [
+        "Disable affected model's prediction endpoint",
+        "Notify ML security team and relevant stakeholders",
+        "Revert to previous stable model version",
+        "Increase monitoring frequency and alerts"
+    ],
+    "root_cause_report": {
+        "analysis_date": "2025-06-29T19:31:10.657276",
+        "root_cause": "Data poisoning through adversarial input injection detected in training data stream.",
+        "evidence": [
+            "Unusual feature distribution in latest batch",
+            "Spike in error rates detected by monitoring",
+            "External logs show suspicious data source"
+        ],
+        "recommendations": [
+            "Implement stricter data validation",
+            "Enhance data provenance tracking",
+            "Train model with adversarial robustness techniques"
+        ]
+    },
+    "timestamp": "2025-06-29T19:33:47.755575"
+}

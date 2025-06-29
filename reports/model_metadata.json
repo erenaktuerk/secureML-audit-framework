@@ -1,0 +1,8 @@
+{
+    "model_name": "RandomForestClassifier",
+    "version": "1.0",
+    "data_source": "German Credit Risk",
+    "owner": "ML Security Analyst",
+    "purpose": "Credit risk scoring",
+    "timestamp": "2025-06-29T16:50:01.290183"
+}
